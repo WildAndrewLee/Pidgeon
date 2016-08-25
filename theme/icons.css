@@ -1,7 +1,7 @@
 @media screen and (min-width: 1025px) {
     /* I C O N S (only on 1024+ px resolutions)
   ~~~~~~~~~~~~*/
-    
+
     #list a[href*="."]:before,
     #list a[href*="/"]:before,
     #list a[href~="INSTALL"]:before,
@@ -37,7 +37,7 @@
         background: url('/icons/text-plain.png') left center no-repeat;
         background-size: 16px;
     }
-    
+
     #list a[href$=".doc"]:before {
         background: url('/icons/application-msword.png') left center no-repeat;
         background-size: 16px;
@@ -81,10 +81,6 @@
     }
     #list a[href$=".deb"]:before {
         background: url('/icons/deb.png') left center no-repeat;
-        background-size: 16px;
-    }
-    #list a[href$=".exe"]:before {
-        background: url('/icons/file.png') left center no-repeat;
         background-size: 16px;
     }
     #list a[href$=".swf"]:before {
@@ -143,7 +139,7 @@
     }
     /* A U D I O
   ~~~~~~~~~~~~*/
-    
+
     #list a[href$=".m3u"]:before {
         background: url('/icons/audio.png') left center no-repeat;
         background-size: 16px;
@@ -170,7 +166,7 @@
     }
     /* I M A G E
   ~~~~~~~~~~~~*/
-    
+
     #list a[href$=".bmp"]:before,
     #list a[href$=".svg"]:before {
         background: url('/icons/image.png') left center no-repeat;
@@ -207,7 +203,7 @@
     }
     /* T E X T
   ~~~~~~~~~~*/
-    
+
     #list a[href$=".css"]:before {
         background: url('/icons/css.png') left center no-repeat;
         background-size: 16px;
@@ -293,7 +289,7 @@
     }
     /* V I D E O
   ~~~~~~~~~~~~*/
-    
+
     #list a[href$=".avi"]:before,
     #list a[href$=".mp4"]:before,
     #list a[href$=".mkv"]:before,
