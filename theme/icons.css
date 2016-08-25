@@ -258,6 +258,10 @@
         background: url('/icons/text-x-javascript.png') left center no-repeat;
         background-size: 16px;
     }
+    #list a[href$=".py"]:before {
+        background: url('/icons/python.png') left center no-repeat;
+        background-size: 16px;
+    }
     #list a[href$=".h"]:before {
         background: url('/icons/c.png') left center no-repeat;
         background-size: 16px;
