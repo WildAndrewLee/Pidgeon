@@ -17,9 +17,11 @@ for(var n = 0; n < rows.length; n++){
 	var byte_size = s_col.innerText;
 
 	var nb_size = parseInt(byte_size);
-	
+
 	if(nb_size + '' != byte_size) continue;
 
 	s_col.innerText = formatBytes(nb_size, 1);
 }
+
+window.title = 'Viewing ' + document.getElementsByTagName('h1')[0].innerText;
 </script>
