@@ -24,7 +24,7 @@
     }
     /* A P P L I C A T I O N
   ~~~~~~~~~~~~~~~~~~~~~~~~*/
-    #list a[href$=".exe"]:before {
+    #list a[href$=".msi"]:before {
         background: url('/icons/msi.png') left center no-repeat;
         background-size: 16px;
     }
