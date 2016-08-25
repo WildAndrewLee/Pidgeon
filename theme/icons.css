@@ -167,18 +167,17 @@
     /* I M A G E
   ~~~~~~~~~~~~*/
 
-    #list a[href$=".bmp"]:before,
     #list a[href$=".svg"]:before {
-        background: url('/icons/image.png') left center no-repeat;
+        background: url('/icons/image-svg.png') left center no-repeat;
         background-size: 16px;
     }
     #list a[href$=".gif"]:before {
-        background: url('/icons/gif.png') left center no-repeat;
+        background: url('/icons/image-gif.png') left center no-repeat;
         background-size: 16px;
     }
     #list a[href$=".jpg"]:before,
     #list a[href$=".jpeg"]:before {
-        background: url('/icons/jpeg.png') left center no-repeat;
+        background: url('/icons/image-jpeg.png') left center no-repeat;
         background-size: 16px;
     }
     #list a[href$=".png"]:before {
@@ -195,10 +194,6 @@
     }
     #list a[href$=".psd"]:before {
         background: url('/icons/image-x-psd.png') left center no-repeat;
-        background-size: 16px;
-    }
-    #list a[href$=".xcf"]:before {
-        background: url('/icons/image.png') left center no-repeat;
         background-size: 16px;
     }
     /* T E X T
