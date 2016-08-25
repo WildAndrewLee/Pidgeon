@@ -200,13 +200,13 @@
   ~~~~~~~~~~*/
 
     #list a[href$=".css"]:before {
-        background: url('/icons/css.png') left center no-repeat;
+        background: url('/icons/text-css.png') left center no-repeat;
         background-size: 16px;
     }
     #list a[href$=".htm"]:before,
     #list a[href$=".html"]:before,
     #list a[href$=".md"]:before {
-        background: url('/icons/html.png') left center no-repeat;
+        background: url('/icons/text-html.png') left center no-repeat;
         background-size: 16px;
     }
     #list a[href$=".txt"]:before,
@@ -255,7 +255,7 @@
         background-size: 16px;
     }
     #list a[href$=".js"]:before {
-        background: url('/icons/js.png') left center no-repeat;
+        background: url('/icons/text-x-javascript.png') left center no-repeat;
         background-size: 16px;
     }
     #list a[href$=".h"]:before {
