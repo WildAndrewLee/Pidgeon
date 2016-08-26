@@ -105,10 +105,6 @@
         background: url('/icons/file.png') left center no-repeat;
         background-size: 16px;
     }
-    #list a[href$=".jar"]:before {
-        background: url('/icons/jar.png') left center no-repeat;
-        background-size: 16px;
-    }
     #list a[href$=".pl"]:before {
         background: url('/icons/pl.png') left center no-repeat;
         background-size: 16px;
@@ -276,6 +272,11 @@
     }
     #list a[href$=".sql"]:before {
         background: url('/icons/sql.png') left center no-repeat;
+        background-size: 16px;
+    }
+    #list a[href$=".java"]:before,
+    #list a[href$=".jar"]:before {
+        background: url('/icons/java.png') left center no-repeat;
         background-size: 16px;
     }
     #list a[href$=".xml"]:before {
