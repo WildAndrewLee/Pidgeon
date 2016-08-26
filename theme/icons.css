@@ -266,10 +266,6 @@
         background: url('/icons/c.png') left center no-repeat;
         background-size: 16px;
     }
-    #list a[href$=".py"]:before {
-        background: url('/icons/py.png') left center no-repeat;
-        background-size: 16px;
-    }
     #list a[href~="README"]:before {
         background: url('/icons/txt.png') left center no-repeat;
         background-size: 16px;
